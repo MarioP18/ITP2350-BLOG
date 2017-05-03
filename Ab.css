@@ -1,0 +1,52 @@
+header {
+    text-align: center;
+    background: url("http://3.bp.blogspot.com/-NQ2YuH9ZfTA/Vk5EXcw1LvI/AAAAAAAAb_A/VGwQcqrlAp0/s1600/cool-abstract-background-hd-desktop-wallpaper-high-definition.jpg");
+    background-size: cover;
+    color:darkred
+}
+h1{font-size: 45px}
+
+nav {text-align: center;
+background-color: azure;
+  
+    
+}
+a{color: black;
+    text-decoration: none;
+}
+
+
+li{
+    list-style:none;
+display:inline;
+padding:0px 20px 0px 20px;
+    
+}
+
+img{
+    margin: 40px 0px 0px 0px;
+    border: 7px solid white;
+    border-radius: 40px;
+}
+/***************************************
+*           section                    *
+***************************************/ 
+
+article{
+    max-width:500px;
+    padding: 20px;
+    margin:0 auto;
+    text-align: justify;
+}
+
+@media (max-width: 500px){
+    h1 {font-size: 36px;}
+    li {display: block;
+        padding:5px;}
+    }
+    footer{
+        max-height: 300p;
+        background-color: beige;
+        color: white;
+        text-align: justify;
+    }
